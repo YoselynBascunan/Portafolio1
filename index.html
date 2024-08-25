@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title> Desarrollador Web</title>
+</head>
+
+<body>
+    
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/YB/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Yoselyn Bascuñan</span>, Ingeniera en Informatica</h2>
+                <p class="descripcion">Soy Yoselyn Nicole Bascuñan Llanos, Ingeniera en Informatica con experiencia en desarrollo de soluciones tecnológicas efectivas. Me caracterizo por ser una persona proactiva y colaborativa</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Yoselyn Bascuñan</span> </h2>
+            <h3>Ingeniera en Informatica</h3>
+            <p> Un desarrollador apasionado por construir soluciones tecnológicas que marcan la diferencia. 
+                He trabajado en diversos proyectos, incluyendo un CRM para una empresa de tapicería, donde pude aplicar mis conocimientos en desarrollo web y bases de datos. 
+                Realicé mi práctica profesional en AFP Capital, enfocándome en el modelamiento de datos, lo que me permitió desarrollar un pensamiento analítico y habilidades para manejar grandes volúmenes de información.</p>
+            <p> Tengo un sólido conocimiento en lenguajes como Python, Java, JavaScript, y React, además de experiencia trabajando con bases de datos relacionales. 
+                Me apasiona el trabajo en equipo y soy un firme creyente en las metodologías ágiles para la gestión de proyectos. 
+                Mi proyecto de título fue una página web de cotizaciones para artículos de computadora, donde pude combinar mis habilidades técnicas con un enfoque en la experiencia de usuario.</p>
+            <p>
+                    Siempre estoy buscando nuevos desafíos y oportunidades para seguir aprendiendo y creciendo como profesional. Mi objetivo es seguir desarrollando aplicaciones que ofrezcan soluciones innovadoras y de alto impacto.
+            </p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Manejo de Lenguajes de Programacion</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    
+                </ul>
+                <p>Python me ha brindado una gran flexibilidad en áreas como automatización y ciencia de datos, gracias a su sintaxis simple y sus potentes bibliotecas.
+                    Java me ha permitido trabajar en aplicaciones escalables y multiplataforma, especialmente en entornos empresariales y desarrollo móvil.
+                    JavaScript ha sido clave para crear interfaces web dinámicas y responsivas, siendo fundamental tanto en el frontend como en el backen</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Diseño de Paginas Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <p>HTML (HyperText Markup Language) es la base de cualquier sitio web, permitiendo estructurar el contenido con elementos semánticos claros.
+                    CSS (Cascading Style Sheets) se encarga del diseño y la presentación, aportando estilos personalizados para crear interfaces atractivas y responsivas.
+                    Bootstrap, un framework CSS, me permite acelerar el desarrollo mediante un sistema de grillas y componentes predefinidos, facilitando la creación de sitios web modernos y adaptables a diferentes dispositivos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Base de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>MySQL</li>
+                    <li>PySQL</li>
+                    <li>SQL Server</li>
+                    <li>Xampp</li>
+                </ul>
+                <p>SQL Server y MySQL son sistemas de gestión de bases de datos ampliamente utilizados para manejar datos estructurados de manera eficiente en aplicaciones de todo tipo.
+                    MariaDB es una versión mejorada y abierta de MySQL, ideal para proyectos de alto rendimiento.
+                    PySQL es útil para interactuar con bases de datos utilizando Python, permitiendo consultas dinámicas y automatización de tareas.
+                    XAMPP facilita la creación de entornos de desarrollo locales para pruebas y despliegue rápido de aplicaciones web.</p>
+            </div>
+        </div>
+       
+    </section>
+
+   
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+   
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Desarrollo de CRM</h4>
+                    <p>Empreza Tapizados</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño de pagina Web</h4>
+                    <p>Proyecto de titulo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Sistema de Cotizaciones</h4>
+                    <p>Proyecto de Titulo</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    
+    <footer>
+        
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
